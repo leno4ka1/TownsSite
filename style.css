@@ -36,7 +36,7 @@ footer {
     background-color: #801616;
     border-radius: 10px;
     border: 7px solid #D46A6A;
-    color: aliceblue;
+    color: white; /* Changed from aliceblue to white */
     font-size: 17px;
 }
 
@@ -46,15 +46,13 @@ footer {
 }
 
 .FantasticParty {
-    color: lightbrown;
+    color: brown; /* Changed from lightbrown to brown */
     border: 7px solid #801616;
     border-radius: 15px;
     background-color: #D46A6A;
-     display: flex;
+    display: flex;
     justify-content: space-around;
-    
 }
-
 
 .tobar {
     background-color: #6B604B;
@@ -68,46 +66,45 @@ footer {
 .image-container {
     display: flex;
     justify-content: space-around;
-     
 }
 
 .zoomable {
     transition: transform 0.3s;
     margin: 10px;
     width: 200px; 
-    height: auto; }
+    height: auto;
+}
 
 .zoomable:hover {
     transform: scale(0.9);
 }
 
-.i{
+.i {
     color: #2b030b;
     background-color: #D46A6A;
     border-radius: 10px;
-    
 }
 
-html{
-    background-color:#b03e54;
+html {
+    background-color: #b03e54;
 }
 
-.delivery{
+.delivery {
     font-size: 17px; 
 }
 
-.mainNav{
+.mainNav {
     display: flex;
     justify-content: space-around;
 }
 
-.mainNav a{
+.mainNav a {
     background-color: #801616;
     font-size: 20px;
     padding: 20px;
     color: white;
 }
 
-p{
+p {
     font-size: 18px;
 }
