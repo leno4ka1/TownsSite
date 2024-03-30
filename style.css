@@ -1,77 +1,113 @@
+header {
+    background-color: #AA3939;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
 body {
     font-family: sans-serif;
-    color:
 }
 
-header {
-  background-color:#6B604B;
-  border-radius: 10px;
-  
-}
-
-#logo{
+#logo {
     margin: 10px;
 }
 
-header a{
+header a {
     text-decoration: none;
-    background-color:#FFF5E1;
+    background-color: #801616;
     color: black;
     padding: 0px 10px;
     margin: 10px;
     border-radius: 10px;
 }
 
-
-
-.color{
-  color:black;
-border: 7px solid #dbc766;
-border-radius: 15px;
-  background-color:#f0ca62;
-}
-
-footer{
-    background-color:#ede07b ;
-}
-footer p{
-background-color: #ffeab0;
-border-radius: 10px;
-}
-
-nav{
-    background-color:#FFF5E1 ;
-    border-radius: 10px;
-    border: 7px solid #322F28;
-    color: aliceblue;
-}
-
-nav a {
-    text-decoration: none;
+.color {
     color: black;
+    border: 7px solid #dbc766;
+    border-radius: 15px;
+    background-color: #f0ca62;
 }
 
-
-.FantasticParty{
- color: lightbrown;
-border: 7px solid #6B604B;
-border-radius: 15px;
-  background-color: #FFF5E1;
+footer {
+    background-color: #ede07b;
 }
+
+.myNavigation {
+    background-color: #801616;
+    border-radius: 10px;
+    border: 7px solid #D46A6A;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.myNavigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.FantasticParty {
+    color: lightbrown;
+    border: 7px solid #801616;
+    border-radius: 15px;
+    background-color: #D46A6A;
+     display: flex;
+    justify-content: space-around;
+    
+}
+
 
 .tobar {
-  background-color:#6B604B;
-  border-radius: 11px;
+    background-color: #6B604B;
+    border-radius: 11px;
 }
 
-.myNavigation{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.pol {
+    color: #FFAAAA;
 }
 
-.pop{
-  background-color: #a78a58 ;
-  border-radius:  5px;
+.image-container {
+    display: flex;
+    justify-content: space-around;
+     
+}
 
+.zoomable {
+    transition: transform 0.3s;
+    margin: 10px;
+    width: 200px; 
+    height: auto; }
+
+.zoomable:hover {
+    transform: scale(0.9);
+}
+
+.i{
+    color: #2b030b;
+    background-color: #D46A6A;
+    border-radius: 10px;
+    
+}
+
+html{
+    background-color:#b03e54;
+}
+
+.delivery{
+    font-size: 17px; 
+}
+
+.mainNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainNav a{
+    background-color: #801616;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+p{
+    font-size: 18px;
 }
