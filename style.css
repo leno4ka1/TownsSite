@@ -1,24 +1,36 @@
-header {
-    background-color: #AA3939;
-    border-radius: 10px;
-    font-size: 17px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #ffffff;
 }
 
 body {
     font-family: sans-serif;
 }
 
-#logo {
-    margin: 10px;
+header {
+    background-color: #AA3939;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
 }
 
 header a {
     text-decoration: none;
     background-color: #801616;
     color: black;
-    padding: 0px 10px;
+    padding: 5px 10px;
     margin: 10px;
     border-radius: 10px;
+    display: inline-block;
+}
+
+#logo {
+    margin: 10px;
 }
 
 .color {
@@ -26,93 +38,7 @@ header a {
     border: 7px solid #dbc766;
     border-radius: 15px;
     background-color: #f0ca62;
-}
-
-footer {
-    background-color: #ede07b;
-}
-
-.myNavigation {
-    background-color: #801616;
-    border-radius: 10px;
-    border: 7px solid #D46A6A;
-    color: aliceblue;
-    font-size: 17px;
-}
-
-.myNavigation a {
-    text-decoration: none;
-    color: white;
-}
-
-.FantasticParty {
-    color: lightbrown;
-    border: 7px solid #801616;
-    border-radius: 15px;
-    background-color: #D46A6A;
-     display: flex;
-    justify-content: space-around;
-    
-}
-
-
-.tobar {
-    background-color: #6B604B;
-    border-radius: 11px;
-}
-
-.pol {
-    color: #FFAAAA;
-}
-
-.image-container {
-    display: flex;
-    justify-content: space-around;
-     
-}
-
-.zoomable {
-    transition: transform 0.3s;
-    margin: 10px;
-    width: 200px; 
-    height: auto; }
-
-.zoomable:hover {
-    transform: scale(0.9);
-    width: 180px;
-    height: auto;
-}
-
-
-.i{
-    color: #2b030b;
-    background-color: #D46A6A;
-    border-radius: 3px;
-    
-}
-
-html{
-    background-color:#ffffff;
-}
-
-.delivery{
-    font-size: 17px; 
-}
-
-.mainNav{
-    display: flex;
-    justify-content: space-around;
-}
-
-.mainNav a{
-    background-color: #801616;
-    font-size: 20px;
-    padding: 20px;
-    color: white;
-}
-
-p{
-    font-size: 18px;
+    padding: 10px;
 }
 
 footer {
@@ -122,4 +48,84 @@ footer {
     padding: 10px;
 }
 
-background-color: #ffffff
+.myNavigation {
+    background-color: #801616;
+    border-radius: 10px;
+    border: 7px solid #D46A6A;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.myNavigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.FantasticParty {
+    color: #A52A2A; /* Исправлен цвет lightbrown */
+    border: 7px solid #801616;
+    border-radius: 15px;
+    background-color: #D46A6A;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.tobar {
+    background-color: #6B604B;
+    border-radius: 11px;
+    padding: 10px;
+}
+
+.pol {
+    color: #FFAAAA;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.zoomable {
+    transition: transform 0.3s;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.zoomable:hover {
+    transform: scale(0.9);
+}
+
+.i {
+    color: #2b030b;
+    background-color: #D46A6A;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.delivery {
+    font-size: 17px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainNav a {
+    background-color: #801616;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
